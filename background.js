@@ -3,4 +3,4 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 		message: "new-url",
 		url: changeInfo.url
 	})
-})
+});

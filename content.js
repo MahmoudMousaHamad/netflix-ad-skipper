@@ -1,6 +1,6 @@
 let interval = null;
 
-/* SELECTOR */
+/* SELECTORS */
 const AD_SELECTOR = ".forward-anim";
 const VIDEO_SELECTOR = "video";
 
@@ -28,7 +28,6 @@ window.addEventListener("load", () => {
         const video = document.querySelector(VIDEO_SELECTOR);
         if (!video) return;
         if (adInProgress()) {
-            console.log("Ad in progress");
             skipAd();
         } else {
             // Reset volume and playback rate
