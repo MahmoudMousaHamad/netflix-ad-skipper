@@ -34,5 +34,5 @@ window.addEventListener("load", () => {
             video.volume = 1;
             video.playbackRate = 1;
         }
-    }, 100);
-}, false)
+    }, 1);
+}, false);
