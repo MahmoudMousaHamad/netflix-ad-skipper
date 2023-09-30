@@ -1,0 +1,17 @@
+{
+	"name": "Netflix Ad Skipper | Ad Blocker",
+	"version": "1.0",
+	"description": "Skip AD breaks in Netflix",
+	"manifest_version": 3,
+	"permissions": ["activeTab"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_end",
+			"matches": ["https://www.netflix.com/watch/*"],
+			"js": ["content.js"]
+		}
+	]
+}
