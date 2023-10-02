@@ -1,6 +1,6 @@
 {
 	"name": "Netflix Ad Skipper",
-	"version": "0.0.0.1",
+	"version": "0.0.0.2",
 	"description": "Make ad breaks on Netflix go super fast!",
 	"manifest_version": 3,
 	"permissions": [],
